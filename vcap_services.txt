@@ -1,0 +1,33 @@
+"VCAP_SERVICES": {
+  "rediscloud": [
+   {
+    "binding_name": null,
+    "credentials": {
+     "hostname": "redis-17041.c14.us-east-1-2.ec2.cloud.redislabs.com",
+     "password": "zcHnb5gcwAmmeLytlrTIeFg7ioDZk7s8",
+     "port": "17041"
+    },
+    "instance_name": "myredis2",
+    "label": "rediscloud",
+    "name": "myredis2",
+    "plan": "30mb",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "Data Stores",
+     "Web-based",
+     "Data Store",
+     "Caching",
+     "Messaging and Queuing",
+     "Data Management",
+     "key-value",
+     "IT Management",
+     "caching",
+     "redis"
+    ],
+    "volume_mounts": []
+   }
+  ]
+ }
+}
+
